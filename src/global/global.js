@@ -17,14 +17,18 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
     letter-spacing: -0.4px;
-    line-height: 1.3;
     text-decoration: none;
     color: #131313;
     font-family: 'SpoqaHanSansNeo-Regular' !important;
   }
 
+  body {
+    line-height: 1.3;
+  }
+
   button {
     cursor: pointer;
+    border: none;
   }
 
 `;

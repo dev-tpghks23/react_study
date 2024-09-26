@@ -25,6 +25,7 @@ const S = {};
     width: 200px;
     height: 200px;
     border: none;
+    color : ${({theme}) => theme.PALLETE.primary["main"]}
   `
 
   S.Wrapper = styled.div`
